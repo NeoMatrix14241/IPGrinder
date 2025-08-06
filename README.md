@@ -1,6 +1,6 @@
 # IPGrinder
 
-**IPGrinder** is a DDoS script intended for **stress testing infrastructure**.
+**IPGrinder** is a Multi-threaded DDoS script intended for **stress testing infrastructure**.
 
 > ⚠️ This tool is meant for **educational and ethical testing purposes only**. Do **not** use it on networks or systems without explicit authorization.
 
