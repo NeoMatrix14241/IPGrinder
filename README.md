@@ -86,10 +86,10 @@ python ipgrinder.py <IP> <PORT> [PROTOCOLS] [THREADS_PER_PROTO] [PACKET_SIZE]
 ### 💡 Example
 
 ```bash
-python ipgrinder.py 192.168.1.1 80 tcp,udp 100 1024
-python ipgrinder.py 192.168.1.1 80 icmp 100 1024
-python ipgrinder.py 192.168.1.1 80 tcp,udp,http 100 1024
-python ipgrinder.py 192.168.1.1 80 all 100 1024
+python ipgrinder.py 192.168.1.1 80 tcp,udp 100 1024 # <-- For TCP/UDP
+python ipgrinder.py 192.168.1.1 80 icmp 100 1024 # <-- For ICMP
+python ipgrinder.py 192.168.1.1 80 tcp,udp,http 100 1024 # <-- For TCP/UDP/HTTP
+python ipgrinder.py 192.168.1.1 80 all 100 1024 # <-- For all protocols supported (TCP,UDP,HTTP,ICMP)
 ```
 
 ---
