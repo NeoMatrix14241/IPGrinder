@@ -62,6 +62,19 @@ sudo apt update && sudo apt upgrade -y && sudo apt install git python3 python3-p
 python ipgrinder.py <IP> <PORT> [PROTOCOLS] [THREADS_PER_PROTO] [PACKET_SIZE]
 ```
 
+---
+
+## ⚠️ ICMP Protocol Usage on Termux
+
+> 🛑 **Important:** ICMP (e.g., ping-based attacks) requires **root access** on Android.
+>
+> - Your device must be **rooted**.
+> - You must have a working `su` binary (e.g., installed via **Magisk**).
+> - Without root, `icmp` will fail due to raw socket restrictions.
+>
+> Other protocols like `udp`, `tcp`, and `http` **do not require root** and will work in non-rooted Termux.
+
+
 ### Parameters
 
 - `<IP>` – Target IP address
