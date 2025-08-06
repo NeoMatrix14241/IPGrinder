@@ -36,6 +36,7 @@ pkg update && pkg upgrade -y
 pkg install git python -y
 git clone https://github.com/NeoMatrix14241/IPGrinder.git
 cd IPGrinder
+python -m pip install --upgrade pip
 python -m pip install requests
 python ipgrinder.py
 ```
@@ -43,7 +44,7 @@ python ipgrinder.py
 ### One-liner
 
 ```bash
-pkg --check-mirror update && pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/NeoMatrix14241/IPGrinder.git && cd IPGrinder && python -m pip install requests && python ipgrinder.py
+pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/NeoMatrix14241/IPGrinder.git && cd IPGrinder && python -m pip install --upgrade pip && python -m pip install requests && python ipgrinder.py
 ```
 
 ---
