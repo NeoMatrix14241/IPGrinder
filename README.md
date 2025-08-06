@@ -6,7 +6,7 @@
 
 ---
 
-## 🔧 Setup for Fakeroot
+## 🔧 Setup for Fakeroot (Termux) - EXPERIMENTAL ONLY, MIGHT NOT WORK
 
 ### Manual Steps
 
