@@ -4,34 +4,12 @@
 
 > ⚠️ This tool is meant for **educational and ethical testing purposes only**. Do **not** use it on networks or systems without explicit authorization.
 
----
-
-## 🔧 Setup for Fakeroot (Termux) - EXPERIMENTAL ONLY, MIGHT NOT WORK
-
-### Manual Steps
-
-```bash
-apt-get update && apt-get upgrade -y
-apt-get install git -y
-git clone https://github.com/adarshaddee/root.git
-cd root
-chmod +x main
-./main
-```
-
-### One-liner
-
-```bash
-pkg --check-mirror update && apt-get update && apt-get upgrade -y && apt-get install git -y && git clone https://github.com/adarshaddee/root.git && cd root && chmod +x main && ./main
-```
-
----
-
 ## ⚙️ Setup for IPGrinder
 
 ### Manual Steps
 
 ```bash
+pkg --check-mirror update
 pkg update && pkg upgrade -y
 pkg install git python -y
 git clone https://github.com/NeoMatrix14241/IPGrinder.git
